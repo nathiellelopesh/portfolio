@@ -1,0 +1,73 @@
+@use '../variables'
+@use '../mixins'
+    
+.projects-container
+    margin-bottom: 1rem
+
+    .projects-grid
+        display: flex
+        flex-wrap: wrap
+        gap: 1.5rem
+
+    .projects-card
+        @include mixins.center
+        gap: 1rem
+        padding: 1rem
+        border: 1px solid #333
+        width: 45%
+        border-radius: variables.$card-border-radius
+        
+        .projects-info
+            display: flex
+            flex-direction: column
+            justify-content: space-around
+            
+
+            img
+                max-width: 200px
+                max-height: 200px
+                margin: 20px 0
+
+            h3
+                color: variables.$text-color
+                margin-bottom: 1rem
+            
+            .buttons
+                display: flex
+
+                .projects-btn
+                    padding: 0.5rem 
+                    color: variables.$text-color
+                    background: variables.$gradient
+                    text-decoration: none
+                    border-radius: 2rem
+                    margin: 0.5rem 
+
+@media (max-width: 535px)
+    img
+        width: 100px !important
+
+@media (max-width: 773px)            
+    h3
+        font-size: 1rem
+        margin-left: 0.5rem
+    .buttons
+        flex-direction: column
+        text-align: center
+
+
+@media (max-width: 983px)            
+    img
+        width: 100px !important
+        margin: auto !important
+    h3
+        font-size: 1rem
+        margin-left: 0.5rem
+        margin-top: 1rem
+    .buttons
+        flex-direction: column
+        text-align: center
+
+            
+
+                
