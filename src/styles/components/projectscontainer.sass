@@ -43,15 +43,33 @@
                     border-radius: 2rem
                     margin: 0.5rem 
 
-@media (max-width: 535px)
-    img
-        width: 100px !important
+@media (max-width: 610px)
+    .projects-grid
+        display: flex
+        flex-direction: column
+        align-items: center
+
+    .projects-card
+        width: 85% !important
+
+
+@media (max-width: 680px)
+    .projects-info
+        max-width: 200px !important
+
+        img
+            min-width: 150px !important
+            height: auto !important
+
+        .buttons
+            width: 200px
+
 
 @media (max-width: 773px)            
     h3
         font-size: 1rem
         margin-left: 0.5rem
-    .buttons
+    .projects-btn
         flex-direction: column
         text-align: center
 

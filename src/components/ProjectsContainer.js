@@ -1,6 +1,7 @@
 import "../styles/components/projectscontainer.sass";
 import StrangerThings from "../img/strangerThings.svg";
-import AluraPlus from "../img/alura.png";
+import moviesLib from "../img/movieslib.PNG";
+import Countdown from "../img/Countdown.PNG";
 
 const projects = [
   {
@@ -11,11 +12,18 @@ const projects = [
     code: "https://github.com/nathiellelopesh/clube-stranger-things",
   },
   {
-    id: "aluraPlus",
-    name: "AluraPlus",
-    img: AluraPlus,
-    url: "https://nathiellelopesh.github.io/ProjetoAlura/",
-    code: "https://github.com/nathiellelopesh/ProjetoAlura",
+    id: "moviesLib",
+    name: "MoviesLib",
+    img: moviesLib,
+    url: "https://movieslib-react-vite.netlify.app/",
+    code: "https://github.com/nathiellelopesh/movielib-react-vite",
+  },
+  {
+    id: "countdown",
+    name: "Countdown",
+    img: Countdown,
+    url: "https://nathiellelopesh.github.io/Countdown-timer/",
+    code: "https://github.com/nathiellelopesh/Countdown-timer",
   },
 ];
 
