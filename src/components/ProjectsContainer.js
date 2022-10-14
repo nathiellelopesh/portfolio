@@ -1,7 +1,7 @@
 import "../styles/components/projectscontainer.sass";
 import StrangerThings from "../img/strangerThings.svg";
-import moviesLib from "../img/movieslib.PNG";
-import Countdown from "../img/Countdown.PNG";
+import naTrave from "../img/naTrave.svg";
+import eSports from "../img/eSports.svg";
 
 const projects = [
   {
@@ -12,18 +12,18 @@ const projects = [
     code: "https://github.com/nathiellelopesh/clube-stranger-things",
   },
   {
-    id: "moviesLib",
-    name: "MoviesLib",
-    img: moviesLib,
-    url: "https://movieslib-react-vite.netlify.app/",
-    code: "https://github.com/nathiellelopesh/movielib-react-vite",
+    id: "naTrave",
+    name: "naTrave",
+    img: naTrave,
+    url: "https://na-trave-apostas.netlify.app/",
+    code: "https://github.com/nathiellelopesh/naTrave-web",
   },
   {
-    id: "countdown",
-    name: "Countdown",
-    img: Countdown,
-    url: "https://nathiellelopesh.github.io/Countdown-timer/",
-    code: "https://github.com/nathiellelopesh/Countdown-timer",
+    id: "eSports",
+    name: "eSports",
+    img: eSports,
+    url: "",
+    code: "https://github.com/nathiellelopesh/eSports",
   },
 ];
 
@@ -36,13 +36,22 @@ const ProjectsContainer = () => {
           <div className="projects-card" id={project.id} key={project.id}>
             <div className="projects-info">
               <img src={project.img} alt={project.name}></img>
-              <h3>{project.name}</h3>
               <div className="buttons">
-                <a href={project.url} target="_blank" className="projects-btn">
+                <a
+                  href={project.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="projects-btn"
+                >
                   {" "}
                   Live Demo
                 </a>
-                <a href={project.code} target="_blank" className="projects-btn">
+                <a
+                  href={project.code}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="projects-btn"
+                >
                   {" "}
                   Code
                 </a>

@@ -2,21 +2,12 @@ const AboutContainer = () => {
   return (
     <section className="about-container">
       <h2>About me</h2>
+      <p>I am a Full-Stack Developer and Engineer.</p>
       <p>
-        After earned a Bachelor's Degree in Engineering, I took a Full Stack
-        JavaScript course.
-      </p>
-      <p>
-        I'm currently working as a Front-end developer freelancer, and also
-        studying to be a JavaScript Full Stack Developer.
-      </p>
-      <p>
-        I am looking to gain experience and career building knowledge related to
-        Front-end.
-      </p>
-      <p>
-        You can take a look in some of my projects on GitHub:
-        https://github.com/nathiellelopesh
+        Earned a Bachelor's Degree in Materials Engineering from Federal
+        University of Latin American Integration in 2021. Finished an online
+        course on modern JavaScript-based web development from Onebitcode in
+        2022.
       </p>
     </section>
   );

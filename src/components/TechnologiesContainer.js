@@ -3,19 +3,24 @@ import {
   DiCss3,
   DiJsBadge,
   DiGit,
-  DiBootstrap,
   DiReact,
+  DiNodejsSmall,
 } from "react-icons/di";
+
+import { SiTypescript, SiMongodb, SiPostgresql } from "react-icons/si";
 
 import "../styles/components/technologiescontainer.sass";
 
 const technologies = [
-  { id: "html", name: "HTML5", icon: <DiHtml5 /> },
-  { id: "css", name: "CSS3", icon: <DiCss3 /> },
+  { id: "html", name: "HTML", icon: <DiHtml5 /> },
+  { id: "css", name: "CSS", icon: <DiCss3 /> },
   { id: "js", name: "JavaScript", icon: <DiJsBadge /> },
-  { id: "git", name: "Git", icon: <DiGit /> },
-  { id: "bootstrap", name: "Bootstrap", icon: <DiBootstrap /> },
+  { id: "ts", name: "TypeScript", icon: <SiTypescript /> },
   { id: "react", name: "React", icon: <DiReact /> },
+  { id: "mongo", name: "MondoDB", icon: <SiMongodb /> },
+  { id: "postgres", name: "PostgreSQL", icon: <SiPostgresql /> },
+  { id: "git", name: "Git", icon: <DiGit /> },
+  { id: "node", name: "Node", icon: <DiNodejsSmall /> },
 ];
 
 const TechnologiesContainer = () => {

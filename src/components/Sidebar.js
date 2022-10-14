@@ -12,7 +12,12 @@ const Sidebar = () => {
       <p className="title">Front-end Developer</p>
       <SocialNetworkContainer />
       <InformationContainer />
-      <a href="#" className="btn">
+      <a
+        href="https://drive.google.com/file/d/1jHNvtCTVrRhLdY1h9ht26Km8eTKQOduR/view?usp=sharing"
+        className="btn"
+        target="_blank"
+        rel="noreferrer"
+      >
         Download Resume
       </a>
     </aside>
